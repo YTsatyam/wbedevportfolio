@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satyam Shiv – Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <h1 class="logo">SS<span>.</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+      <button id="toggleTheme" aria-label="Toggle dark/light">☀️</button>
+      <a href="assets/cv.pdf" class="btn accent" download>Download CV</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2 id="typewriter" aria-label="Dynamic tagline"></h2>
+      <p class="subtitle">Web Developer in Progress – Code • Create • Deploy</p>
+      <div class="cta">
+        <a href="#projects" class="btn accent">See My Work</a>
+      </div>
+    </div>
+    <!-- optional photo -->
+    <img src="assets/satyam-photo.jpg" alt="Satyam Shiv portrait" class="hero-photo" /> 
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h3 class="section-title">About Me</h3>
+    <p class="section-text">
+      I’m <strong>Satyam Shiv</strong>, a BCA student at JIMS Vasant Kunj with a strong foundation in front-end development and a growing skillset in full-stack web technologies. I build clean, responsive, user-friendly interfaces and continuously sharpen my craft with DSA and modern frameworks. Ready to contribute to real-world projects—and learn at warp speed.
+    </p>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h3 class="section-title">Tech Stack</h3>
+    <ul class="skills">
+      <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Git & GitHub</li>
+      <li>VS Code</li><li>Responsive Design</li><li>Canva</li>
+      <li class="learning">Tailwind CSS</li><li class="learning">Bootstrap</li>
+      <li class="learning">React.js</li><li class="learning">Figma</li>
+      <li class="learning">DSA</li>
+    </ul>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <h3 class="section-title">Featured Projects</h3>
+
+    <div class="project-grid">
+      <!-- Project Card 1 -->
+      <article class="card">
+        <h4>TaskBrew ☕</h4>
+        <p class="card-text">
+          Vanilla-JS to-do web app with dark/light toggle, priority filters, localStorage persistence.
+        </p>
+        <div class="card-links">
+          <a href="https://ytsatyam.github.io/taskbrew/"    target="_blank" class="btn small">Live</a>
+          <a href="https://github.com/ytsatyam/taskbrew"    target="_blank" class="btn small">Code</a>
+        </div>
+      </article>
+
+      <!-- Project Card 2 -->
+      <article class="card">
+        <h4>MetaVanta Media</h4>
+        <p class="card-text">
+          Gen-Z-focused agency landing page with AI-assisted build, framer-motion animations, lead-capture form.
+        </p>
+        <div class="card-links">
+          <a href="https://metavantamedia.in"                    target="_blank" class="btn small">Live</a>
+          <a href="https://github.com/ytsatyam/metawebsite" target="_blank" class="btn small">Code</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== TIMELINE ===== -->
+  <section id="timeline" class="section">
+  <h3 class="section-title">Experience Timeline</h3>
+  <ul class="timeline">
+    <li><span class="time">Jun 2025</span> Generative AI Intern @ Prodigy Infotech</li>
+    <li><span class="time">May 2025</span> Co-founded MetaVanta Media (Startup Project)</li>
+    <li><span class="time">2024 – Present</span> Full-Stack Web Dev + DSA Course @ Apna College (Sigma Batch)</li>
+    <li><span class="time">2023 – 2027</span> BCA Student @ JIMS Vasant Kunj</li>
+    </ul>
+    </section>
+
+
+  <!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <h3 class="section-title">Let’s Connect</h3>
+
+  <div class="contact-links">
+
+    <div class="contact-item">
+      <a href="mailto:satyamshiv2024@email.com" aria-label="Email" class="icon">📧</a>
+      <span>Email</span>
+    </div>
+
+    <div class="contact-item">
+      <a href="https://www.linkedin.com/in/satyam-shiv/" target="_blank" aria-label="LinkedIn" class="icon">💼</a>
+      <span>LinkedIn</span>
+    </div>
+
+    <div class="contact-item">
+      <a href="https://github.com/YTsatyam" target="_blank" aria-label="GitHub" class="icon">🐙</a>
+      <span>GitHub</span>
+    </div>
+
+  </div>
+</section>
+
+  <footer class="footer">
+    <small>&copy; 2025 Satyam Shiv • Built with ❤ &amp; Vanilla JS</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
