@@ -3,7 +3,7 @@
 A responsive, dark-/light-toggle portfolio built with **HTML + CSS + Vanilla JS**.  
 Showcases my projects, tech stack, experience timeline, and contact links — all deployable on GitHub Pages in minutes.
 
-![Screenshot of portfolio homepage](assets/portfolio-screenshot.png)
+![Screenshot of portfolio homepage](assets/portfolio-screenshot.png.png)
 
 ---
 
